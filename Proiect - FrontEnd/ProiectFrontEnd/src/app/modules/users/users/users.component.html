@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="form-section">
+
+    <h1 class="top">
+      Current user:
+      <br />
+      <p class="loggedUser">
+        {{ loggedUser.email }}
+      </p>
+    </h1>
+    <button mat-raised-button (click)="logout()">
+      Logout
+    </button>
+    <button mat-raised-button (click)="goSongs()">
+      Songs
+    </button>
+    <button mat-raised-button (click)="goSubs()">
+      Subscriptions
+    </button>
+    <app-child [messageFromParent]="parentMessage"
+               (messageFromChild)="receiveMessage($event)"></app-child>
+  </div>
+</div>

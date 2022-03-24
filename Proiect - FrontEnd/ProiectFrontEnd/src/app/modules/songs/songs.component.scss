@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: black;
+
+  .form-section {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+    .top {
+      font-size: 48px;
+    }
+
+    .loggedUser {
+      text-align: center;
+      font-size: 60px;
+      color: steelblue;
+    }
+
+    .mat-form-field {
+      font-size: 24px;
+      width: 100%;
+      height: 50%;
+    }
+
+    .mat-raised-button {
+      font-size: 32px;
+      width: 12%;
+      height: 10%;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #777777;
+      margin-bottom: 30px;
+    }
+
+    .table {
+      width: 60%;
+      align-content: center;
+    }
+
+    .add-button {
+      margin-top: 20px;
+    }
+
+  }
+}
